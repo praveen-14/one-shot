@@ -7,7 +7,8 @@ import torchvision.transforms as transforms
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # device = 'cpu'
 
-data_path = "./data/lfw"
+# data_path = "data/lfw"
+data_path = "drive/My Drive/data/lfw"
 
 def train_test():
 	
